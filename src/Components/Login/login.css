@@ -1,0 +1,70 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d3e4a;
+}
+
+.sign-in-box {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    background-color: #021e2e;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.form-control {
+    background-color: aliceblue;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sign-in-fb-btn,
+.sign-in-btn {
+    border: 2px solid rgb(20, 139, 236);
+    background-color: #062d4a;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:disabled,
+fieldset:disabled .btn {
+    border: 2px solid #105670;
+    pointer-events: none;
+    opacity: .65;
+}
+
+
+.sign-in-fb-btn:hover,
+.sign-in-btn:hover {
+    border: 2px solid rgb(0, 140, 255);
+    background-color: #0a4b7a;
+    color: aliceblue;
+}
+
+.form-control:hover {
+    background-color: rgb(8, 8, 8);
+    color: aliceblue;
+}
+
+.fs2 {
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.fs1 {
+    color: rgb(48, 188, 243);
+    cursor: pointer;
+    text-decoration: underline;
+}
